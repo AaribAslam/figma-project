@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'Gilroy-SemiBold';
+    src: url('Gilroy-SemiBold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Gilroy-SemiBold';
+    margin: 0px;
+    padding: 0px;
+    background-color: #002062;
+}
+
+.bg-img img {
+    height: 800px;
+    width: 859px;
+    position: fixed;
+    right: 0;
+}
+.container{
+    width: 586px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo img{
+    width: 349px;
+    height: 94px;
+    margin-top: 20px;
+}
+.heading p {
+    font-family: 'Gilroy-SemiBold';
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    margin-top: 10px;
+}
+
+.pass {
+    margin-top: 20px;
+}
+
+.mail,
+.pass {
+    display: flex;
+    align-items: center;
+    width: 350px;
+    height: 42px;
+    border-radius: 10px;
+    border: 0.3px solid #0F2D6B;
+    background-color: #0F2D6B;
+}
+
+.mail input,
+.pass input {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: white;
+    padding-left: 10px;
+}
+
+input::placeholder {
+    color: white;
+}
+
+.envelope,
+.lock {
+    color: #57A5D8;
+    margin-left: 7px;
+}
+
+.eye {
+    color: #5F7BA6;
+    margin-right: 7px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a p {
+    font-family: 'Gilroy-SemiBold';
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    margin-left: 235px;
+}
+
+.login-mtd {
+    width: 374.5px;
+    height: 323px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signin {
+    width: 350px;
+    height: 42px;
+    border-radius: 10px;
+    border: 0.3px solid #1A4FBA;
+    background-color: #1A4FBA;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.section-br {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    color: white;
+    opacity: 0.5;
+}
+
+.section-br hr {
+    width: 170px;
+    height: 0.001px;
+
+}
+
+.google,
+.facebook,
+.apple {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 350px;
+    height: 42px;
+    border-radius: 10px;
+    border: 0.3px solid #0F2D6B;
+    background-color: #0F2D6B;
+    margin-top: 10px;
+    color: white;
+}
+
+.account{
+    color: white;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.account a{
+    color: #4671C6;
+}
