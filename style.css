@@ -16,18 +16,19 @@ body {
 
 .main{
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 0 150px;
     width: 1440px;
     display: flex;
     flex-direction: row-reverse;
     gap: 90px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .bg-img img {
     height: 950px;
     width: 1220px;
+    margin-left: 90px;
     /* position: fixed; */
     /* right: 0; */
 }
