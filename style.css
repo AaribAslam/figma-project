@@ -17,17 +17,17 @@ body {
 .main{
     max-width: 1440px;
     margin: 0 auto;
-    width: 1024px;
+    width: 1440px;
     display: flex;
     flex-direction: row-reverse;
-    gap: 100px;
+    gap: 90px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .bg-img img {
     height: 950px;
-    width: 859px;
+    width: 1220px;
     /* position: fixed; */
     /* right: 0; */
 }
