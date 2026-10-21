@@ -10,13 +10,27 @@ body {
     margin: 0px;
     padding: 0px;
     background-color: #002062;
+    overflow: hidden;
+    
+}
+
+.main{
+    max-width: 1440px;
+    margin: 0 150px;
+    width: 1440px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 90px;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .bg-img img {
-    height: 800px;
-    width: 859px;
-    position: fixed;
-    right: 0;
+    height: 950px;
+    width: 1220px;
+    margin-left: 90px;
+    /* position: fixed; */
+    /* right: 0; */
 }
 .container{
     width: 586px;
@@ -30,7 +44,7 @@ body {
 .logo img{
     width: 349px;
     height: 94px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 .heading p {
     font-family: 'Gilroy-SemiBold';
@@ -111,6 +125,7 @@ a p {
     font-size: 18px;
     font-weight: 400;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .section-br {
@@ -134,7 +149,7 @@ a p {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
     width: 350px;
     height: 42px;
     border-radius: 10px;
@@ -142,6 +157,7 @@ a p {
     background-color: #0F2D6B;
     margin-top: 10px;
     color: white;
+    cursor: pointer;
 }
 
 .account{
@@ -153,3 +169,4 @@ a p {
 .account a{
     color: #4671C6;
 }
+
